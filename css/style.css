@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+}
+
+.dropdown{
+    margin-top: 5px;
+}
+
+.wpp{
+    margin-top: 5px;
+}
+
+.dropdown:hover {
+    color: white;
+}
+
+.nav-item svg{
+    margin-left: 2px;
+    margin-bottom: 3px;
+    color: rgb(22, 181, 22);
+}
+
+.logo{
+    height: 60px;
+}
+
+.card img {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover img{
+    /* Defina a opacidade quando o mouse passa sobre a imagem */
+    opacity: 0.8;
+}
