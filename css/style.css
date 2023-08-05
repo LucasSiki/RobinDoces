@@ -4,7 +4,7 @@
 }
 
 body{
-    height: 200vh;
+    height: 300vh;
 }
 
 .dropdown{
@@ -29,6 +29,14 @@ body{
     height: 60px;
 }
 
+#deliciosos{
+    background-color: #03989e;
+}
+
+#especiais{
+    background-color: #cf3a3a;
+}
+
 .card img {
     opacity: 1;
     transition: opacity 0.3s ease;
@@ -37,4 +45,13 @@ body{
 .card:hover img{
     /* Defina a opacidade quando o mouse passa sobre a imagem */
     opacity: 0.8;
+}
+
+.cestas{
+    margin-top: 5px;
+}
+
+body {
+    /* Adjust this to set the scroll position at which the button should appear */
+    --scroll-to-show-button: 50vh;
 }

@@ -31,17 +31,32 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item fs-4">
-                            <a class="nav-link active home" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active home" aria-current="page" href="#home">Home</a>
                         </li>
                         <div class="dropdown">
                             <button class="btn btn-none dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Doces
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Deliciosos</a></li>
-                                <li><a class="dropdown-item" href="#">Especiais</a></li>
+                                <li><a class="dropdown-item" href="#deliciosos">Deliciosos</a></li>
+                                <li><a class="dropdown-item" href="#especiais">Especiais</a></li>
+                                <li><a class="dropdown-item" href="#Coracao">Coração de Chocolate</a></li>
                             </ul>
                         </div>
+                        <div class="dropdown">
+                            <button class="btn btn-none dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Brunch
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tábua de Frios</a></li>
+                                <li><a class="dropdown-item" href="#">Brunch na Caixa M</a></li>
+                                <li><a class="dropdown-item" href="#">Brunch na Caixa M com Coração de Chocolate</a></li>
+                                <li><a class="dropdown-item" href="#">Brunch na Caixa G</a></li>
+                                <li><a class="dropdown-item" href="#">Brunch na Caixa G com Coração de Chocolate</a></li>
+                                
+                            </ul>
+                        </div>
+                        
                         <li class="nav-item fs-5 wpp">
                             <a class="nav-link" href="https://wa.me/5551993712229?text=Ol%C3%A1%2C+gostaria+de+fazer+um+pedido%21" target="_blank">
                                 Faça seu pedido
@@ -50,6 +65,7 @@
                                 </svg>
                             </a>
                         </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -58,15 +74,59 @@
     </header>
 
     <main>
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website</title>
+    <link rel="stylesheet" href="path/to/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center mt-4">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/carrossel/foto1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carrossel/foto2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carrossel/foto3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+        <hr class="border border-light border-3 mt-5">
+        <hr class="border border-primary border-3 mt-2">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-evenly mt-4">
-                    <h1 class="text-dark bg-dark-subtle p-2">Deliciosos</h1>
+                    <h1 class="text-dark p-2" id="deliciosos">Deliciosos</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                    <div class="card border border-primary border-3" style="width: 18rem;">
                         <img src="./img/doce/doce2.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Belga ao Leite</p>
@@ -76,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                    <div class="card border border-primary border-3" style="width: 18rem;">
                         <img src="./img/doce/doce4.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Branquinho com Raspas</p>
@@ -88,7 +148,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                    <div class="card border border-primary border-3" style="width: 18rem;">
                         <img src="./img/doce/doce5.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Churrinhos</p>
@@ -98,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                    <div class="card border border-primary border-3" style="width: 18rem;">
                         <img src="./img/doce/doce6.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Leite Ninho com Nutella</p>
@@ -109,15 +169,17 @@
                 </div>
             </div>
         </div>
+        <hr class="border border-primary border-3 mt-5">
+        <hr class="border border-danger border-3 mt-2">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-evenly mt-4">
-                    <h1 class="text-dark bg-dark-subtle p-2">Especiais</h1>
+                    <h1 class="text-dark p-2" id="especiais">Especiais</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                    <div class="card border border-danger border-3" style="width: 18rem;">
                         <img src="./img/doce/doce1.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Brûlée</p>
@@ -127,7 +189,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                    <div class="card border border-danger border-3" style="width: 18rem;">
                         <img src="./img/doce/doce3.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Pistache</p>
@@ -138,8 +200,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                <div class="col-md-6 d-flex justify-content-evenly mt-4 mb-4">
+                    <div class="card border border-danger border-3" style="width: 18rem;">
                         <img src="./img/doce/doce3.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Churrinhos</p>
@@ -148,8 +210,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-evenly mt-4">
-                    <div class="card border border-white border-3" style="width: 18rem;">
+                <div class="col-md-6 d-flex justify-content-evenly mt-4 mb-4">
+                    <div class="card border border-danger border-3" style="width: 18rem;">
                         <img src="./img/doce/doce4.png" class="card-img-top" alt="...">
                         <div class="card-body text-light bg-dark">
                             <p class="card-text fs-4 text-center">Leite Ninho com Nutella</p>
@@ -160,9 +222,39 @@
                 </div>
             </div>
         </div>
+        <hr class="border border-danger border-3 mt-5">
+        <hr class="border border-light border-3 mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-evenly mt-4">
+                    <h1 class="text-dark bg-dark-subtle p-2" id="brunch">Brunch</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-evenly mt-4">
+                    <div class="card border border-white border-3" style="width: 18rem;">
+                        <img src="./img/doce/doce2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-light bg-dark">
+                            <p class="card-text fs-4 text-center">Tábuas de Frios</p>
+                            <p class="card-text fs-5 text-center text-danger"><del>R$ 30,99</del></p>
+                            <p class="card-text fs-5 text-center">R$ 20,99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-evenly mt-4">
+                    <div class="card border border-white border-3" style="width: 18rem;">
+                        <img src="./img/doce/doce4.png" class="card-img-top" alt="...">
+                        <div class="card-body text-light bg-dark">
+                            <p class="card-text fs-4 text-center">Teste</p>
+                            <p class="card-text fs-5 text-center"><del>R$ 0,99</del></p>
+                            <p class="card-text fs-5 text-center">R$ 0,50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </main>
-    
-
-
     </body>
 </html>
